@@ -7,7 +7,7 @@ int main()
 {
     HelloClass helloClass("Juan Esteban");
 
-    std::cout << helloClass.generarMensaje() << std::endl;
+    std::cout << helloClass.decirHola() << std::endl;
 
     return 0;
 }

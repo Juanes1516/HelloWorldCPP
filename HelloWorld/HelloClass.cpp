@@ -4,7 +4,7 @@
 
 HelloClass::HelloClass(const std::string& nombre) : nombre(nombre) {}
 
-std::string HelloClass::generarMensaje() const {
+std::string HelloClass::decirHola() const {
 
     // Nos devolverá los segundos que han pasado
     time_t tiempoActual = time(NULL);

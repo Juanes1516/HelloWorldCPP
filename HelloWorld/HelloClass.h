@@ -8,7 +8,7 @@ private:
     std::string nombre;
 public:
     HelloClass(const std::string& nombre);
-    std::string generarMensaje() const;
+    std::string decirHola() const;
 };
 
 #endif 
